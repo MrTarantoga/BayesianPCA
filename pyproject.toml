@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "BayesianPCA"
+version = "1.0.0"
+authors = [
+  { name="Maxence Giraud", email="maxence.giraud.etu@univ-lille.fr" },
+]
+description = "We implement the original PCA as a baseline, the probabilistic PCA and Bayesian PCA. We then also try to extend the bayesian formulation to the kernel PCA based also on the work on the Probabilistic Kernel PCA. This project was done as part of a course on Bayesian Learning, taught by Remi Bardenet as part of the Master Data Science at the University of Lille."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy",
+  "scipy",
+  "matplotlib"
+]
+
+[project.urls]
+Homepage = "https://github.com/MaxenceGiraud/BayesianPCA"
+Issues = "https://github.com/MaxenceGiraud/BayesianPCA/issues"
